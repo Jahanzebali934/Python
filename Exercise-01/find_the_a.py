@@ -8,6 +8,6 @@ print("All cases are passed")
 
 assert find_the_a("Hallo Welt!") == 1
 assert find_the_a("Bacon and Spam") == 1
-assert find_the_a("edcba") == 5
+assert find_the_a("edcba") == 4
 assert find_the_a("Hello world!") == False
 assert find_the_a("") == False
